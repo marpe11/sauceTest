@@ -46,8 +46,6 @@ To run all tests:
 
 ## 📌 Implemented Test Cases
 
-📌 Implemented Test Cases
-
 1️⃣ Login Tests: Logs in with all users described in the scenario, including validation for incorrect username/password and empty fields. 🔑
 
 2️⃣ Navigation & Search: Directly navigates to the products section (no search functionality found). 🧭
