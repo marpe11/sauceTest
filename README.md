@@ -15,7 +15,7 @@ Aqui você encontrará uma suíte de testes automatizados usando **Playwright** 
 1️⃣ Clone este repositório:
 
 ```sh
-  git clone https://github.com/seu-usuario/sauce-demo-automation.git
+  git clone [https://github.com/seu-usuario/sauce-demo-automation.git](https://github.com/marpe11/sauceTest.git)
 ```
 
 2️⃣ Acesse o diretório do projeto:
