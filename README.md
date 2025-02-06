@@ -21,7 +21,7 @@ Aqui você encontrará uma suíte de testes automatizados usando **Playwright** 
 2️⃣ Acesse o diretório do projeto:
 
 ```sh
-  cd sauce-demo-automation
+  cd sauceTest
 ```
 
 3️⃣ Instale as dependências:
