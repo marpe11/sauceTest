@@ -37,7 +37,11 @@ Para executar todos os testes:
 ```sh
 npx playwright test --reporter=html
 ```
+Para abrir o relatório de testes:
 
+```sh
+  npx playwright show-report
+```
 ## 📜 Estrutura do Projeto
 
 📂 **pages/** - Arquivos do Page Object Model (POM) 🏗️\
