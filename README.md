@@ -38,18 +38,6 @@ To run all tests:
   npx playwright test
 ```
 
-To run a specific test:
-
-```sh
-  npx playwright test test-name.spec.js
-```
-
-To open the test report:
-
-```sh
-  npx playwright show-report
-```
-
 ## 📜 Project Structure
 
 📂 **pages/** - Page Object Model (POM) files 🏗️\
