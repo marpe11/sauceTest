@@ -1,62 +1,60 @@
-# 🛒 Sauce Demo Automation - Playwright
+# 🛒 Sauce Demo Automação - Playwright
 
-Welcome to the automated testing repository for **Sauce Demo**! 🎭🚀
+Bem-vindo ao repositório de testes automatizados para **Sauce Demo**! 🎭🚀
 
-Here you will find a suite of automated tests using **Playwright** to validate functionalities of the [Sauce Demo](https://www.saucedemo.com) website. From login to checkout, we've got everything covered! 🔥
+Aqui você encontrará uma suíte de testes automatizados usando **Playwright** para validar funcionalidades do site [Sauce Demo](https://www.saucedemo.com). Desde login até checkout, cobrimos tudo! 🔥
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologias Utilizadas
 
 - [Playwright](https://playwright.dev/) 🎭
 - Node.js 🟢
 - JavaScript 📝
 
-## 📦 Installation
+## 📦 Instalação
 
-1️⃣ Clone this repository:
+1️⃣ Clone este repositório:
 
 ```sh
-  git clone https://github.com/your-username/sauce-demo-automation.git
+  git clone https://github.com/seu-usuario/sauce-demo-automation.git
 ```
 
-2️⃣ Navigate to the project directory:
+2️⃣ Acesse o diretório do projeto:
 
 ```sh
   cd sauce-demo-automation
 ```
 
-3️⃣ Install dependencies:
+3️⃣ Instale as dependências:
 
 ```sh
   npm install
 ```
 
-## 🚀 Running the Tests
+## 🚀 Executando os Testes
 
-To run all tests:
+Para executar todos os testes:
 
 ```sh
-  npx playwright test
+npx playwright test --reporter=html
 ```
 
-## 📜 Project Structure
+## 📜 Estrutura do Projeto
 
-📂 **pages/** - Page Object Model (POM) files 🏗️\
-📂 **tests/** - Automated test scripts 🧪\
-📂 **utils/** - Constants and helper functions 🔧
+📂 **pages/** - Arquivos do Page Object Model (POM) 🏗️\
+📂 **tests/** - Scripts de testes automatizados 🧪\
+📂 **utils/** - Constantes e funções auxiliares 🔧
 
-## 📌 Implemented Test Cases
+## 📌 Casos de Teste Implementados
 
-1️⃣ Login Tests: Logs in with all users described in the scenario, including validation for incorrect username/password and empty fields. 🔑
+1️⃣ **Testes de Login:** Faz login com todos os usuários descritos no cenário, incluindo validação para usuário/senha incorretos e campos vazios. 🔑
 
-2️⃣ Navigation & Search: Directly navigates to the products section (no search functionality found). 🧭
+2️⃣ **Navegação & Pesquisa:** Aqui já caimos na seção de produtos e não encontrei nenhum campo de pesquisa. 🧭
 
-3️⃣ Product Validation: Locates the "Sauce Labs Bolt T-Shirt" and verifies its name, price, and description. 🏷️
+3️⃣ **Validação de Produto:** Procura o item "Sauce Labs Bolt T-Shirt" e verifica nome, preço e descrição. 🏷️
 
-4️⃣ Add to Cart & Verification: Adds the product to the cart, checks if the cart icon (shopping_cart_link) displays a badge, clicks on the cart, and verifies that the product was added with the correct details. 🛍️
+4️⃣ **Adicionar ao Carrinho & Verificação:** Adiciona o produto ao carrinho, verifica se o ícone do carrinho (`shopping_cart_link`) exibe um badge, clica no carrinho e confirma que o produto foi adicionado com os detalhes corretos. 🛍️
 
-5️⃣ Checkout Process: Proceeds to the checkout page, verifies error messages for missing first name, last name, and zip code. Then fills in the fields, continues, and checks if the item appears with all necessary details, the tax is as expected, and the total price is correct. Clicks the "Finish" button and confirms successful checkout completion. ✅
-## 🎯 Project Objective
+5️⃣ **Processo de Checkout:** Acessa a página de checkout, verifica mensagens de erro para campos obrigatórios (first name, last name e zip code). Após preenchê-los, continua e verifica se o item aparece com todas as informações necessárias, se a taxa está correta e se o valor total está de acordo com o esperado. Clica no botão "Finish" e confirma a conclusão bem-sucedida do checkout. ✅
 
-This project was created to enhance **test automation** skills and ensure that Sauce Demo always runs smoothly! 😎
+## **Resultado:**
 
-##
