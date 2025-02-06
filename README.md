@@ -50,15 +50,11 @@ Para abrir o relatório de testes:
 
 ## 📌 Casos de Teste Implementados
 
-1️⃣ **Testes de Login:** Faz login com todos os usuários descritos no cenário, incluindo validação para usuário/senha incorretos e campos vazios. 🔑
+1️⃣ **Login:** Faz o teste de todos os logins fornecidos pela plataforma, também validando cada mensagem de erro. 🔑
 
-2️⃣ **Navegação & Pesquisa:** Aqui já caimos na seção de produtos e não encontrei nenhum campo de pesquisa. 🧭
+2️⃣ **Products** Faz a checagem da página Products, verificando se o produto setado na productDetails, esta contido na página, verificando nome, descrição e valor. 🧭
 
-3️⃣ **Validação de Produto:** Procura o item "Sauce Labs Bolt T-Shirt" e verifica nome, preço e descrição. 🏷️
+3️⃣ **Cart** Adiciona o produto ao carrinho, verifica se o ícone do carrinho (`shopping_cart_link`) exibe um badge, clica no carrinho e confirma que o produto foi adicionado com os detalhes corretos, após isso clica em remover e verifica se o mesmo badge some do (`shopping_cart_link`)🏷️
 
-4️⃣ **Adicionar ao Carrinho & Verificação:** Adiciona o produto ao carrinho, verifica se o ícone do carrinho (`shopping_cart_link`) exibe um badge, clica no carrinho e confirma que o produto foi adicionado com os detalhes corretos. 🛍️
-
-5️⃣ **Processo de Checkout:** Acessa a página de checkout, verifica mensagens de erro para campos obrigatórios (first name, last name e zip code). Após preenchê-los, continua e verifica se o item aparece com todas as informações necessárias, se a taxa está correta e se o valor total está de acordo com o esperado. Clica no botão "Finish" e confirma a conclusão bem-sucedida do checkout. ✅
-
-## **Resultado:**
+4️⃣ **Checkout** O fluxo de Checkout valida todo o processo de finalização de compra, desde a inserção das informações de envio até a confirmação do pedido. O teste inicia o checkout, verifica mensagens de erro para campos obrigatórios (First Name, Last Name e Postal Code) e preenche os dados corretamente. Em seguida, avança para a página de resumo, onde confirma os detalhes do produto e os valores totais. Após finalizar o pedido, o teste valida se o usuário é redirecionado para a página de confirmação com a mensagem de sucesso, garantindo que o processo foi concluído com segurança. 🛒✅
 
