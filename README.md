@@ -1,80 +1,71 @@
 # 🛒 Sauce Demo Automation - Playwright
 
-Bem-vindo ao repositório de testes automatizados para o **Sauce Demo**! 🎭🚀
+Welcome to the automated testing repository for **Sauce Demo**! 🎭🚀
 
-Aqui você encontrará uma suíte de testes automatizados usando **Playwright** para validar funcionalidades do site [Sauce Demo](https://www.saucedemo.com). Desde login até checkout, cobrimos tudo! 🔥
+Here you will find a suite of automated tests using **Playwright** to validate functionalities of the [Sauce Demo](https://www.saucedemo.com) website. From login to checkout, we've got everything covered! 🔥
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - [Playwright](https://playwright.dev/) 🎭
 - Node.js 🟢
 - JavaScript 📝
 
-## 📦 Instalação
+## 📦 Installation
 
-1️⃣ Clone este repositório:
+1️⃣ Clone this repository:
 
 ```sh
-  git clone https://github.com/seu-usuario/sauce-demo-automation.git
+  git clone https://github.com/your-username/sauce-demo-automation.git
 ```
 
-2️⃣ Acesse o diretório do projeto:
+2️⃣ Navigate to the project directory:
 
 ```sh
   cd sauce-demo-automation
 ```
 
-3️⃣ Instale as dependências:
+3️⃣ Install dependencies:
 
 ```sh
   npm install
 ```
 
-## 🚀 Como Rodar os Testes
+## 🚀 Running the Tests
 
-Para rodar todos os testes:
+To run all tests:
 
 ```sh
   npx playwright test
 ```
 
-Para rodar um teste específico:
+To run a specific test:
 
 ```sh
-  npx playwright test nome-do-teste.spec.js
+  npx playwright test test-name.spec.js
 ```
 
-Para abrir o relatório de testes:
+To open the test report:
 
 ```sh
   npx playwright show-report
 ```
 
-## 📜 Estrutura do Projeto
+## 📜 Project Structure
 
-📂 **pages/** - Modelos de páginas (Page Object Model) 🏗️\
-📂 **tests/** - Arquivos de testes automatizados 🧪\
-📂 **utils/** - Constantes e funções auxiliares 🔧
+📂 **pages/** - Page Object Model (POM) files 🏗️\
+📂 **tests/** - Automated test scripts 🧪\
+📂 **utils/** - Constants and helper functions 🔧
 
-## 📌 Casos de Teste Implementados
+## 📌 Implemented Test Cases
 
-✅ Login com diferentes tipos de usuários 🧑‍💻\
-✅ Adicionar produtos ao carrinho 🛍️\
-✅ Verificação de título, preço e descrição dos produtos 🔍\
-✅ Checkout com validações de campos obrigatórios 📝\
-✅ Confirmação de pedido 🎉
+✅ Login with different user types 🧑‍💻\
+✅ Adding products to the cart 🛍️\
+✅ Product title, price, and description verification 🔍\
+✅ Checkout with required field validations 📝\
+✅ Order confirmation 🎉
 
-## 🎯 Objetivo do Projeto
+## 🎯 Project Objective
 
-Este projeto foi criado para aprimorar habilidades em **automação de testes** e garantir que o Sauce Demo esteja sempre funcionando perfeitamente! 😎
+This project was created to enhance **test automation** skills and ensure that Sauce Demo always runs smoothly! 😎
 
-## 🤝 Contribuições
-
-Quer contribuir? Abra um Pull Request! 📩
-
-🐛 Encontrou um bug? Abra uma **Issue** e nos avise! 🚨
-
-## 🎉 Bora testar?
-
-Se divirta testando e quebrando o site (virtualmente, é claro)! 🚀😆
-
+##
