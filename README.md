@@ -29,6 +29,11 @@ Aqui você encontrará uma suíte de testes automatizados usando **Playwright** 
 ```sh
   npm install
 ```
+4️⃣ Instale o playwright
+
+```sh
+  npx playwright install  
+```
 
 ## 🚀 Executando os Testes
 
